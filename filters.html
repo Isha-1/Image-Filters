@@ -1,0 +1,46 @@
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://use.typekit.net/emj1vuo.css">
+</head>
+
+<script src = "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"> </script>
+<script src = "http://www.dukelearntoprogram.com/course1/common/js/image/SimplePixel.js"> </script>
+
+<body class="solid" >
+  
+<div id = "pageformat">
+  <div class = "row" >
+    
+    <div class = "col-6">
+                
+<h1>  Filter Fun </h1>
+<canvas id = "can" class = "col-6" ></canvas>
+<br>
+<h2> Load image </h2>
+<input type = "file" id = "fileinput"  multiple = "false" accept = image/* onchange = "displayImage()"/>
+    
+    </div>
+   
+ <div class = "col-6">   
+<h2>Filters</h2>
+<input type = "button" class="button button1" value = "Rainbow" id = "rainbow" onclick = "doRainbow()"/>
+<input type = "button" class="button button2" value = "Grayscale" id = "grayscale" onclick = "doGrayscale()"/>
+<br>
+<br>
+<input type = "button" class="button button3" value = "Red" id = "red" onclick = "doRed()"/>
+   &emsp; &nbsp;
+<input type = "button" class="button button4" value = "Blur" id = "blur" onclick = "doBlur()"/>
+  <input type = "button" class="button button5" value = "Make window pane" id = "blur" onclick = "doWindowpane()"/>
+<br>
+<br>
+<input type = "button" class="button button6" value = "Reset image" id = "reset" onclick = "doReset()"/>
+ <input type = "button" class="button button7" value = "Clear canvas" id = "reset" onclick = "clearCanvas()"/>
+   </div>
+ </div>
+                                        
+</div>
+</body>  
+</html>
+
